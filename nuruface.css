@@ -1,17 +1,19 @@
 root:
-{alpha:linen;
-beta:ivory;
-lambda:olive;
-delta:darkslategray;
-omega:darkcyan;
-theta:all .6s ease-in;
-zeta:bold;}
+{
+  --alpha:linen;
+  --beta:ivory;
+  --lambda:olive;
+  --delta:darkslategray;
+  --omega:darkcyan;
+  --theta:all .6s ease-in;
+  --zeta:bold;
+}
 
 ::-webkit-scrollbar
 {width:5px;
 height:auto;
 overflow-y: scroll;
-scrollbar-color:var(alpha);}
+scrollbar-color:var(--alpha);}
 
 body
 {background:url(https://nuru.nyc/img/image-from-rawpixel-id-2572882-jpeg.jpg);
@@ -24,5 +26,5 @@ height:90%;
 margin:auto;
 inset:0;
 position:fixed;
-background:var(alpha);
+background-color:var(--alpha);
 border:3px inset silver;}
