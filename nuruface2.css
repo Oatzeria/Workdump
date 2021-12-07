@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Libre+Franklin:wght@100&display=swap');
+
+::-webkit-scrollbar
+{width:5px;
+height:auto;
+overflow-y: scroll;
+background-color:linen;}
+
+::-webkit-scrollbar-track
+{background-color:deepgreen;
+width:4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: olive;
+  border-radius: 10%;
+  border: 3px solid royalblue;
+}
+
+
+
+body
+{background:forestgreen, url(https://nuru.nyc/img/image-from-rawpixel-id-2572882-jpeg.jpg);
+background-blend-mode: overlay;
+background-size:100% 100%;
+overflow:hidden;
+}
+
+.nlogo
+{position:fixed;
+width:200%;
+height:15%;
+inset:0;
+margin:1% auto;
+background:rgb(15% 56% 78%);
+font-family: 'Cabin', sans-serif;
+font-size:200%;
+text-align:center;
+border:2px solid black;
+font-weight:bold;
+z-index:2;}
+
+.nlogo p
+{font-size:100%;}
+
+
+.main
+{width:65%;
+height:85%;
+margin:7% auto;
+inset:0;
+position:fixed;
+background-color:BlanchedAlmond;
+border:3px inset silver;}
+
+.main p
+{
+font-family: 'Cabin', sans-serif;
+font-size:1.5rem;
+padding:1%;
+}
+
+.main img
+{float:right;
+margin:2%;}
+
+.menu
+{
+position:fixed;
+top:1%;
+left:0;
+height:95%;
+width:15%;
+border:3px ridge gold;
+z-index:2;
+overflow:auto;
+}
+
+.menu ul
+{
+list-style-type:none;
+font-family: 'Libre Franklin', sans-serif;
+margin:0;
+padding:0;
+}
+
+.menu ul a
+{
+text-decoration:none;
+font-weight:999;
+display:block;
+text-align:center;
+width:96%;
+height:35%;
+font-size:2rem;
+background:darkkhaki;
+padding:2%;
+color:black;
+transition:all .6s ease;
+-moz-transition:all .6s ease;
+-webkit-transition:all .6s ease;
+-o-transition:all .6s ease;}
+
+.menu ul a:hover
+{
+color:rgb(22% 22% 22%);
+background:rgb(78% 44% 34%);
+}
+
+.ads
+{position:fixed;
+right:-4%;
+top:2%;
+height:100%;
+width:20%;
+overflow:auto;}
+
+
+.ads div
+{height:justify;
+width:inherit;
+}
+
+.subscribe
+{position:fixed;
+background:gainsboro;
+left:0;
+bottom:2%;
+height:30%;
+width:15%;
+border:4px ridge cyan;
+}
+
+.subscribe form
+{background:grey;
+border:2px ridge yellow;}
+
+input[type=text], input[type=submit] {
+width: 100%;
+padding: 2%;
+margin: 2em 0;
+cursor:pointer;
+display: inline-block;
+border: 2px ridge ivory;
+box-sizing: border-box;
+}
